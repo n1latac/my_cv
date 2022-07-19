@@ -1,0 +1,87 @@
+body{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 50px;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   background-color: rgb(253, 246, 223);
+}
+
+.header__img{
+   display: inline-block;
+   margin-right: 40px;
+}
+img {
+   width: 230px;
+   height: 230px;
+   border-radius: 50%;
+}
+.header__about {
+   display: inline-block;
+   margin-right: 40px;
+   margin-right: 150px;
+}
+.header__name {
+   font-weight: 700;
+   font-size: 66px;
+   line-height: 0;
+}
+.header__name p{
+   color: rgb(201, 125, 25);
+}
+.header__specialization {
+   font-weight: 600;
+font-size: 26px;
+opacity: 0.7;
+color: #5E5E5E;
+}
+.header__contacts {
+   display: inline-block;
+   text-align: right;
+   font-weight: 500;
+   font-size: 18px;
+}
+
+.contacts {
+   color: #5E5E5E;
+   font-weight: 700;
+}
+
+.contacts > * {
+   padding-right: 28px;
+
+}
+
+.contacts > *:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+.contacts__number {
+   background: url('/img/tel.svg') right 0/20px no-repeat;
+}
+.contacts__email {
+   background: url('/img/email.svg')right 4px/20px no-repeat;
+}
+.contacts__github {
+   background: url('/img/git.svg') right 2px/20px no-repeat;
+   
+}
+
+a {
+   display: block;
+   text-decoration: none;
+   color: inherit;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.title {
+   font-size: 30px;
+}
+li{
+   font-size: 18px;
+}
+
+
+   
